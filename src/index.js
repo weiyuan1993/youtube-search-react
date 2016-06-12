@@ -12,4 +12,4 @@ ReactDOM.render(
     <Provider store={createStoreWithMiddleware(rootReducer)}>
         <UiApp />
     </Provider>
-	,document.querySelector('.container'));
+	,document.querySelector('.container-fluid'));

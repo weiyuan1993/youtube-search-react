@@ -7,7 +7,7 @@ export function videoSearch(searchInput){
 		part:'snippet',
 		key: API_KEY,
 		q:searchInput,
-		type:'video,channel,playlist',
+		type:'video',
 		maxResults:50
 	};
 	const request = axios.get(ROOT_URL, {params:params});
