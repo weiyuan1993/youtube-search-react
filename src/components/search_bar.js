@@ -41,7 +41,7 @@ class SearchBar extends Component {
             />
             <form className="search-bar" onSubmit={this.onButtonClick.bind(this)}>
                 <TextField id="searchInput" value={this.state.searchInput} onChange={(event)=>this.onInputChange(event.target.value)} />
-                <RaisedButton type="submit" label="Search" secondary={true} style={style} icon={<ActionSearch />}/>
+                <RaisedButton type="submit" label="Search"  secondary={true} style={style} icon={<ActionSearch />}/>
             </form>
           </div>
         )
