@@ -13,7 +13,7 @@ You can search any videos on YouTube in this app.
 * [Material Design](http://www.material-ui.com/)
 * [axios](https://github.com/mzabriskie/axios)
 
-### Getting Started###
+### Getting Started
 ```
 	> npm install
 	> npm start
